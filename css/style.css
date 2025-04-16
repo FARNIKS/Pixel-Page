@@ -1,112 +1,109 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
 
 /*Se colocan caracteristicas generales primero*/
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-html body{
-    width: 100%;
-    height: 100%;
-    scroll-behavior: smooth;
+html body {
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
 }
 
-body{
-    background-color: #89a7b1;
-    font-family: 'Pixelify Sans';
-    font-size: 1rem;  
-    color: #e2e1e6;
+body {
+  background-color: #89a7b1;
+  font-family: "Pixelify Sans";
+  font-size: 1rem;
+  color: #e2e1e6;
 }
 
-strong{ 
-    font-size: 1.4rem;
+strong {
+  font-size: 1.4rem;
 }
 
-a{
-    text-decoration: none;
-    color: #e2e1e6;
+a {
+  text-decoration: none;
+  color: #e2e1e6;
 }
 
-a:hover{
-    color: #171624;
+a:hover {
+  color: #171624;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-.logo{
-    width: 200px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.logo {
+  width: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-img{
-    width: 100%;
-    border-radius: 30px;
+img {
+  width: 100%;
+  border-radius: 30px;
 }
 
-.header{
-    background: #3a415a;
-    padding: 10px;
-    position: sticky;
-    color: #e2e1e6;
-    top: 0;
+.header {
+  background: #3a415a;
+  padding: 10px;
+  position: sticky;
+  color: #e2e1e6;
+  top: 0;
 }
 
-.header nav{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.header nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.header nav ul{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-
+.header nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
-.header nav li{
-    background: #566981;
-    border-radius: 20px;
-    padding: 5px;
-    
+.header nav li {
+  background: #566981;
+  border-radius: 20px;
+  padding: 5px;
 }
-.header a{
-    color: #e2e1e6;
-}
-
-.header a:hover{
-    color: #171624;
+.header a {
+  color: #e2e1e6;
 }
 
-
-.container{
-    margin: 0 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-    
+.header a:hover {
+  color: #171624;
 }
-.container h1, h2{
-    text-align: center;
+
+.container {
+  margin: 0 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.container h1,
+h2 {
+  text-align: center;
 }
 
 .section {
-    width: 100%;
-    background: #3a415a;
-    padding: 20px;
-    border-radius: 30px;
+  width: 100%;
+  background: #3a415a;
+  padding: 20px;
+  border-radius: 30px;
 }
 
 .article{
@@ -119,249 +116,246 @@ img{
 }
 
 .article li {
-    background-color: #a59ebe;
-    padding: 20px;
-    border-radius: 30px;
-    color: #171624;
-    justify-content: center;
-    align-items: center;
+  background-color: #a59ebe;
+  padding: 20px;
+  border-radius: 30px;
+  color: #171624;
+  justify-content: center;
+  align-items: center;
 }
 
 .historia-section .article {
-    background: #7c8194;
-    padding: 20px;
-    border-radius: 30px;
+  background: #7c8194;
+  padding: 20px;
+  border-radius: 30px;
 }
 
 .recursos-section .article {
-    background: #7c8194;
-    padding: 20px;
-    border-radius: 30px;
+  background: #7c8194;
+  padding: 20px;
+  border-radius: 30px;
 }
 
-
-
-.footer{
-    background: #3a415a;
-    text-align: center;
-    padding: 50px;
+.footer {
+  background: #383e56;
+  text-align: center;
 }
-.section, .article, .estilos-list{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.section,
+.article,
+.estilos-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-
 
 @media (width > 1100px) {
-    body{
-        font-size: 1.2rem;  
-    }
-    
+  body {
+    font-size: 1.2rem;
+  }
 
-    .container{
-        margin: 0 20%;
-    }
-    .estilos-list{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 20px;
-    }
+  .container {
+    margin: 0 20%;
+  }
+  .estilos-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
 
-    .estilos-article .estilos-list{
-        grid-template-columns: 1fr 1fr;
-    }
+  .estilos-article .estilos-list {
+    grid-template-columns: 1fr 1fr;
+  }
 
-    .estilos-article .estilos-list li:first-child{
-        grid-column-start: 1;
-        grid-column-end: -1;
-    }
+  .estilos-article .estilos-list li:first-child {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
 
-    .historia-section {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-        
-    }
-    
-    .historia-section h2 {
-        grid-column-start: 1;
-        grid-column-end: -1;
-    }
+  .historia-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
 
-    .historia-section .article:nth-child(3) {
-        grid-column-start: 2;
-        grid-column-end: -1;
-    }
+  .historia-section h2 {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
 
-    .historia-section .article:nth-child(4) {
-        grid-column-start: 1;
-        grid-column-end: -1;
-    }
-
-    .caracteristicas-article .estilos-list{
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-    }
-
-    .herramientas-article .estilos-list li:last-child{
-        grid-column-start: 2;
-        grid-column-end: -1;
-    }
-
-    .tecnicas-article .estilos-list {
-        grid-template-columns: 1fr 1fr;
-    }
-    
-    .clasificacion-article .estilos-list li:nth-child(2){
+  .historia-section .article:nth-child(3) {
     grid-column-start: 2;
     grid-column-end: -1;
-   }
+  }
 
-   .clasificacion-article .estilos-list li:nth-child(3){
+  .historia-section .article:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+
+  .caracteristicas-article .estilos-list {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .herramientas-article .estilos-list li:last-child {
+    grid-column-start: 2;
+    grid-column-end: -1;
+  }
+
+  .tecnicas-article .estilos-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .clasificacion-article .estilos-list li:nth-child(2) {
+    grid-column-start: 2;
+    grid-column-end: -1;
+  }
+
+  .clasificacion-article .estilos-list li:nth-child(3) {
     grid-column-start: 1;
     grid-column-end: 3;
-   }
+  }
 
-   .estetica-article .estilos-list li:last-child{
+  .estetica-article .estilos-list li:last-child {
     grid-row-start: 1;
     grid-row-end: 4;
     grid-column-start: 2;
     grid-column-end: 4;
-   }
+  }
 
-   .estilos-pixel-art-article .estilos-list {
+  .estilos-pixel-art-article .estilos-list {
     grid-template-columns: 1fr 1fr;
-   }
+  }
 
-   .recursos-section{
+  .recursos-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-   }
+  }
 
-   .recursos-section h2, p, .article:nth-child(3){
+  .recursos-section h2,
+  p,
+  .article:nth-child(3) {
     grid-column-start: 1;
     grid-column-end: -1;
-   }
-
+  }
 }
 
-
 @media (width > 1700px) {
-    body{
-        font-size: 1.7rem;
-    }
-    .container{
-        margin: 0 10%;
-    }
-    .section{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-    }
-    .inicio-section h1, h2{
-        grid-column-start: 1;
-        grid-column-end: -1;
-    }
-    .historia-section{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 20px;
-    }
-    .historia-section h2 {
-        grid-column-start: 1;
-        grid-column-end: -1;
-    }
-
-    .historia-section .article:nth-child(3) {
-        grid-column-start: 2;
-        grid-column-end: 3;
-    }
-    .historia-section .article:nth-child(4) {
-        grid-column-start: 3;
-        grid-column-end: -1;
-    }
-
-    .estilos-section h2, h3{
-        grid-column-start: 1;
-        grid-column-end: -1;
-    }
-
-    .estilos-section .article:nth-child(2) {
-        grid-column-start: 1;
-        grid-column-end: -1;
-    }
-
-    .estilos-article .estilos-list{
-        grid-template-columns: repeat(3, 1fr);
-    }
-   
-
-    .estilos-article .estilos-list li:first-child{
-        grid-column-start: 1;
-        grid-column-end: 3;
-    }
-
-    .caracteristicas-article .estilos-list{
-        grid-template-columns: repeat(4, 1fr);
-        gap: 20px;
-    }
-
-    .herramientas-section .article:nth-child(2){
-        grid-column-start: 1;
-        grid-column-end: -1;
-    }
-    .herramientas-article .estilos-list{
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .herramientas-article .estilos-list li:last-child{
-        grid-column-start: 2;
-        grid-column-end: -1;
-    }
-
-    .tecnicas-article .estilos-list {
-        grid-template-columns: repeat(4, 1fr);
-    }
-    .estetica-section .estilos-list {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-       }
-    .estetica-section .article:nth-child(2) {
-        grid-column-start: 1;
-        grid-column-end: -1;
-    }
-    .videojuegos-section .article:nth-child(4){
-        grid-column-start: 1;
-        grid-column-end: -1;
-    }
-   
-    .estetica-article .estilos-list{
-        grid-template-columns: repeat(2, 1fr);
-    }
-   
-    .estetica-article .estilos-list li:nth-child(3){
-        grid-column-start: 1;
-        grid-column-end: 3;
-       }
-   .estetica-article .estilos-list li:last-child{
-    grid-column-start: 4;
+  body {
+    font-size: 1.7rem;
+  }
+  .container {
+    margin: 0 10%;
+  }
+  .section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .inicio-section h1,
+  h2 {
+    grid-column-start: 1;
     grid-column-end: -1;
-   }
-
-
-   .recursos-section{
+  }
+  .historia-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-   }
-
-   .recursos-section h2, p{
+  }
+  .historia-section h2 {
     grid-column-start: 1;
     grid-column-end: -1;
-   }
+  }
 
-   .recursos-section .article:nth-child(3){
+  .historia-section .article:nth-child(3) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .historia-section .article:nth-child(4) {
+    grid-column-start: 3;
+    grid-column-end: -1;
+  }
+
+  .estilos-section h2,
+  h3 {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+
+  .estilos-section .article:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+
+  .estilos-article .estilos-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .estilos-article .estilos-list li:first-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .caracteristicas-article .estilos-list {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .herramientas-section .article:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+  .herramientas-article .estilos-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .herramientas-article .estilos-list li:last-child {
+    grid-column-start: 2;
+    grid-column-end: -1;
+  }
+
+  .tecnicas-article .estilos-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .estetica-section .estilos-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .estetica-section .article:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+  .videojuegos-section .article:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+
+  .estetica-article .estilos-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .estetica-article .estilos-list li:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .estetica-article .estilos-list li:last-child {
+    grid-column-start: 4;
+    grid-column-end: -1;
+  }
+
+  .recursos-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .recursos-section h2,
+  p {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+
+  .recursos-section .article:nth-child(3) {
     grid-column-start: 1;
     grid-column-end: -2;
-   }
+  }
 }
