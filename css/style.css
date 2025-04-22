@@ -139,6 +139,44 @@ h2 {
 .footer {
   background: #383e56;
   text-align: center;
+  padding: 30px;
+  gap: 20px;
+}
+.footer nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer nav li {
+  background: #566981;
+  border-radius: 20px;
+  padding: 5px;
+  gap: 20px;
+}
+.footer a {
+  color: #e2e1e6;
+}
+
+.footer a:hover {
+  color: #171624;
+}
+.footer img{
+  width: 50px;
+}
+
+
+.redes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 5px;
+
 }
 .section,
 .article,
@@ -239,6 +277,26 @@ h2 {
     grid-column-start: 1;
     grid-column-end: -1;
   }
+
+  .footer nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+  }
+  
+  .footer nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  
+  
 }
 
 @media (width > 1700px) {
