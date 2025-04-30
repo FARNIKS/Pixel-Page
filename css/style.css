@@ -57,26 +57,38 @@ img {
   top: 0;
 }
 
-.header nav {
-  width: 100%;
+.nav-container{
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-around;
+  align-items: center;
 }
 
-.header nav ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.nav-links-mobile{
+  display: none;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 5px;
 }
 
+.nav-links {
+  display: none;
+}
+
 .header nav li {
   background: #566981;
   border-radius: 20px;
-  padding: 5px;
+  padding: 5px ;
+
+}
+
+.hamburguer{
+  display: block;
+}
+.offset {
+  scroll-margin-top:120px;
 }
 .header,.footer a {
   color: #e2e1e6;
@@ -189,16 +201,29 @@ h2 {
   gap: 20px;
 }
 
-/*Retirar a un futuro por menu hamburguesa*/
-@media (width < 400px){
-  .offset {
-    scroll-margin-top:180px;
+@media (width > 992px) {
+  .header nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
-}
 
-@media (width > 400px){
-  .offset {
-    scroll-margin-top:150px;
+  .nav-links-mobile{
+    display: none !important;
+  }
+
+  .nav-links{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .hamburguer{
+    display: none !important;
   }
 }
 
@@ -207,9 +232,7 @@ h2 {
     font-size: 1.2rem;
   }
 
-  .offset {
-    scroll-margin-top:120px;
-  }
+  
 
   .container {
     margin: 0 20%;
